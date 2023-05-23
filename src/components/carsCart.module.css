@@ -1,0 +1,19 @@
+.bars {
+  display: none;
+}
+.iconsDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media (max-width: 400px) {
+  .bars {
+    display: block;
+  }
+
+  .iconsDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}

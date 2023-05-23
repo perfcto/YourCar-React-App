@@ -1,0 +1,74 @@
+.carsSlider {
+  height: 120vh;
+  padding: 75px;
+  background-color: #e6e6e6;
+  padding-bottom: 150px;
+  margin-bottom: 150px;
+}
+.carsSlider h1 {
+  font-size: 130px;
+  color: rgba(198, 198, 198, 0.347);
+  margin-bottom: 0;
+  padding: 0;
+  letter-spacing: 7px;
+  text-align: center;
+}
+.carsSlider h3 {
+  font-size: 46px;
+  font-weight: 900;
+  color: brown;
+  position: relative;
+  bottom: 60px;
+  left: 5px;
+  text-align: center;
+}
+.carsSliderList {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0px;
+}
+
+.btnPrev,
+.btnNext {
+  color: brown;
+  font-size: 32px;
+  position: absolute;
+}
+.btnNext {
+  right: 90px;
+}
+.btnPrev::after,
+.btnNext::after {
+  content: '';
+  position: initial;
+}
+@media (max-width: 400px) {
+  .carsSlider {
+    width: 400px;
+    height: 120vh;
+    padding: 10px;
+    padding-bottom: 150px;
+    margin-bottom: 150px;
+  }
+  .carsSlider h1 {
+    font-size: 55px;
+    text-align: center;
+  }
+  .carsSlider h3 {
+    font-size: 24px;
+    position: relative;
+    text-align: center;
+    bottom: 30px;
+  }
+  .btnPrev,
+  .btnNext {
+    display: none;
+  }
+  .carsSliderList {
+    padding: 0;
+  }
+  .swiper-container {
+    width: 900px;
+  }
+}

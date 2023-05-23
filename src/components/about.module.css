@@ -1,0 +1,71 @@
+.aboutUs {
+  height: 120vh;
+  margin: 50px;
+  display: flex;
+}
+.aboutUs .aboutDis {
+  width: 65%;
+}
+.aboutDis h1 {
+  font-size: 130px;
+  color: rgba(198, 198, 198, 0.347);
+  margin-bottom: 0;
+  padding: 0;
+  letter-spacing: 7px;
+}
+.aboutDis h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(139, 0, 0);
+  position: relative;
+  bottom: 50px;
+  left: 20px;
+}
+.aboutDis p {
+  padding: 20px 60px 0;
+  font-size: 18px;
+  width: 700px;
+  text-align: start;
+  line-height: 1.5;
+}
+.aboutImgs {
+  position: relative;
+}
+.wallImg {
+  position: absolute;
+  z-index: -1;
+  top: 30px;
+}
+.carImg {
+  position: absolute;
+  z-index: 1;
+  top: 70px;
+}
+@media (max-width: 400px) {
+  .aboutUs {
+    width: 400px;
+    margin: 50px auto;
+  }
+  .aboutUs .aboutDis {
+    width: 100%;
+  }
+  .aboutImgs {
+    display: none;
+  }
+  .aboutDis h1 {
+    font-size: 55px;
+    text-align: center;
+  }
+  .aboutDis h3 {
+    position: relative;
+    text-align: center;
+    bottom: 30px;
+  }
+  .aboutDis p {
+    padding: 20px 30px 20px;
+    font-size: 18px;
+    width: 100%;
+    text-align: start;
+    line-height: 1.3;
+  }
+}

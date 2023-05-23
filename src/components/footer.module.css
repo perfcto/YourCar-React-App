@@ -1,0 +1,169 @@
+.footer {
+  margin: 150px auto;
+  width: 80%;
+  height: 30vh;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.logoAndDes {
+  width: 30%;
+  padding: 20px 30px;
+}
+.logoAndDes h3 {
+  color: brown;
+  font-size: 26px;
+  font-weight: bold;
+}
+.logoAndDes h3 span {
+  font-weight: 200;
+}
+.logoAndDes p {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 25px;
+  text-align: start;
+  width: 75%;
+}
+.newsAndInput {
+  padding: 25px 30px;
+  width: 35%;
+}
+.newsAndInput h4 {
+  text-align: center;
+  font-size: 18px;
+  color: #7d2716;
+  margin-bottom: 20px;
+}
+.newsAndInput p {
+  text-align: center;
+  font-size: 14px;
+  width: 60%;
+  margin: 0 auto 25px;
+  font-weight: 200;
+}
+.newsAndInput form {
+  width: 90%;
+}
+.newsAndInput form input {
+  font-size: 16px;
+  padding: 15px;
+  width: 65%;
+  outline: none;
+  border: 1px solid #7d2716;
+}
+.newsAndInput form button {
+  padding: 15px 19px;
+  font-size: 14px;
+  margin-left: 15px;
+  background-color: #741906;
+  color: #fff;
+  font-weight: 400;
+  border: none;
+}
+.contactInfoDiv {
+  padding: 25px 30px;
+  width: 30%;
+}
+.contactInfoDiv h4 {
+  text-align: center;
+  font-size: 18px;
+  color: #7d2716;
+  margin-bottom: 20px;
+}
+.contactInfo {
+  list-style: none;
+}
+.contactInfo li {
+  display: flex;
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+  margin-top: 15px;
+  align-items: center;
+}
+.contactInfo li p {
+  font-size: 14px;
+}
+
+@media (max-width: 400px) {
+  .footer {
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+  }
+  .logoAndDes {
+    width: 100%;
+  }
+  .logoAndDes h3 {
+    text-align: center;
+    font-size: 36px;
+  }
+
+  .logoAndDes p {
+    font-size: 18px;
+    line-height: 1.2;
+    margin-top: 25px;
+    text-align: center;
+    width: 100%;
+  }
+  .newsAndInput {
+    padding: 15px 0;
+    width: 100%;
+  }
+  .newsAndInput h4 {
+    text-align: center;
+    font-size: 24px;
+  }
+  .newsAndInput p {
+    font-size: 18px;
+  }
+  .newsAndInput form {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 15px;
+  }
+  .newsAndInput form input {
+    font-size: 16px;
+    padding: 15px;
+    width: 65%;
+    outline: none;
+    border: 1px solid #7d2716;
+  }
+  .newsAndInput form button {
+    padding: 15px 19px;
+    font-size: 14px;
+    margin-left: 15px;
+    background-color: #741906;
+    color: #fff;
+    font-weight: 400;
+    border: none;
+  }
+  .contactInfoDiv {
+    padding: 15px;
+    width: 100%;
+  }
+  .contactInfoDiv h4 {
+    text-align: center;
+    font-size: 18px;
+    color: #7d2716;
+    margin-bottom: 20px;
+  }
+
+  .contactInfo {
+    list-style: none;
+  }
+  .contactInfo li {
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    align-items: center;
+  }
+  .contactInfo li p {
+    font-size: 14px;
+  }
+}

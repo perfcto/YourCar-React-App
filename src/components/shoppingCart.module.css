@@ -1,0 +1,97 @@
+.shopping {
+  position: fixed;
+  z-index: 6;
+  top: 70px;
+  right: 0;
+  width: 25%;
+  background-color: #070f17a1;
+}
+.carsList {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  height: 90%;
+}
+.car {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 20px;
+}
+.car .carImg {
+  width: 50%;
+}
+.car .carImg img {
+  width: 100%;
+}
+.car .carInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.car .carInfo h4 {
+  color: #741906;
+}
+.car .carInfo p {
+  color: #741906;
+  font-size: 14px;
+}
+.car .carInfo .carButtons {
+  display: flex;
+  gap: 20px;
+  margin-top: 15px;
+  align-items: center;
+}
+.car .carInfo .carButtons button {
+  font-size: 16px;
+  background-color: #741906;
+  border: none;
+  outline: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-left: 1px;
+  color: white;
+  cursor: pointer;
+}
+.car .carInfo .carButtons .num {
+  color: black;
+  background-color: white;
+  cursor: auto;
+}
+.car .carInfo .carButtons .Trash {
+  background-color: white;
+  color: black;
+  font-size: 22px;
+}
+.deleteBtn {
+  background-color: #741906;
+  border: none;
+  outline: none;
+  color: aliceblue;
+  font-size: 26px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  width: 50%;
+  margin: 0px auto 15px;
+  display: block;
+  cursor: pointer;
+}
+@media (max-width: 400px) {
+  .shopping {
+    position: absolute;
+    width: 100%;
+  }
+}

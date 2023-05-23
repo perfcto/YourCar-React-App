@@ -1,0 +1,82 @@
+.card {
+  width: 72%;
+  height: 80%;
+  background-color: white;
+  margin: auto;
+}
+.card .dis {
+  width: 50%;
+  padding-top: 50px;
+  margin: 50px auto 10px;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 400;
+}
+.stars {
+  list-style: none;
+  color: #ebd8b8;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  width: 20%;
+  margin: auto;
+  padding: 0;
+}
+.clintDit {
+  width: 100%;
+  justify-content: center;
+  margin: 20px auto;
+  position: relative;
+  display: flex;
+}
+.clintDit h4 {
+  font-size: 26px;
+  padding: 20px;
+}
+.clintDit p {
+  font-size: 16px;
+  padding: 25px 20px;
+  color: #aaaaaa;
+}
+.clintDit img {
+  position: absolute;
+  right: -150px;
+  bottom: -100px;
+}
+@media (max-width: 400px) {
+  .card {
+    width: 100%;
+    height: 90%;
+  }
+  .card .dis {
+    width: 83%;
+    padding-top: 50px;
+    margin: 50px auto 15px;
+
+    line-height: 1.2;
+  }
+  .stars {
+    width: 50%;
+    margin: 15px auto;
+    padding: 0;
+  }
+  .clintDit {
+    flex-direction: column;
+    align-items: center;
+  }
+  .clintDit h4 {
+    font-size: 17px;
+    padding: 10px 10px 2px;
+  }
+  .clintDit p {
+    font-size: 14px;
+    padding: 10px;
+  }
+  .clintDit img {
+    width: 130px;
+    position: absolute;
+    right: -25px;
+    bottom: -120px;
+  }
+}

@@ -1,0 +1,73 @@
+.carGallery {
+  width: 100%;
+}
+.carsList {
+  margin: 150px auto;
+  width: 95%;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+.carImg {
+  position: relative;
+}
+.carImg img {
+  width: 100%;
+  height: 100%;
+}
+.carImg .photoDit {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.762);
+  width: 100%;
+  height: 99%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  opacity: 0;
+}
+.photoDit h4 {
+  color: white;
+  font-size: 26px;
+  font-weight: 400;
+}
+.photoDit p {
+  margin: 0;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+}
+.photoDit button {
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  border: 2px solid white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.carImg .photoDit:hover {
+  opacity: 1;
+}
+.carImg img {
+}
+
+@media (max-width: 400px) {
+  .carsList {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,26 @@
+.carsType {
+  margin: 150px auto;
+}
+.carsTypeList {
+  list-style: none;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+}
+
+.carsTypeList li {
+  width: 100px;
+}
+.carsTypeList li img {
+  width: 100%;
+}
+@media (max-width: 400px) {
+  .carsTypeList {
+    flex-wrap: wrap;
+  }
+  .carsTypeList li {
+    width: 45px;
+  }
+}

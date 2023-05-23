@@ -1,0 +1,94 @@
+.services {
+  height: 100vh;
+  position: relative;
+  background-color: #cccccc35;
+  padding: 75px;
+}
+.services h1 {
+  font-size: 130px;
+  color: rgba(198, 198, 198, 0.347);
+  margin-bottom: 0;
+  padding: 0;
+  letter-spacing: 7px;
+  text-align: center;
+}
+.services h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(7, 7, 12);
+  position: relative;
+  bottom: 50px;
+  left: 20px;
+  text-align: center;
+}
+.services img {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+.servicesCards {
+  margin-top: 50px;
+  display: flex;
+  gap: 45px;
+  justify-content: space-evenly;
+}
+.servicesCard {
+  width: 25%;
+  text-align: center;
+}
+.servicesCard .icon {
+  font-size: 6em;
+}
+.servicesCard h2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.servicesCard p {
+  line-height: 1.5;
+  font-size: 20px;
+}
+@media (max-width: 400px) {
+  .services {
+    width: 400px;
+    padding: 50px;
+    overflow: hidden;
+  }
+
+  .services h1 {
+    font-size: 55px;
+    text-align: center;
+  }
+  .services h3 {
+    position: relative;
+    text-align: center;
+    bottom: 30px;
+  }
+  .services img {
+    position: absolute;
+    z-index: -1;
+    top: 27px;
+    left: -343px;
+  }
+  .servicesCards {
+    height: 80%;
+    margin-top: 50px;
+    display: flex;
+    gap: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .servicesCard {
+    width: 100%;
+  }
+  .servicesCard .icon {
+    font-size: 40px;
+  }
+  .servicesCard h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .servicesCard p {
+    line-height: 1.2;
+    font-size: 16px;
+  }
+}
