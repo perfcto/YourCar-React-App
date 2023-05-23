@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/react-comp/static/css/main.4b363e3d.css",
+    "main.js": "/react-comp/static/js/main.8fa373b8.js",
+    "static/media/Background.png": "/react-comp/static/media/Background.5ec6b6901e54fafa9bfe.png",
+    "static/media/imgAbout.png": "/react-comp/static/media/imgAbout.b859d19fbe439b1c66e8.png",
+    "static/media/carGallary (2).png": "/react-comp/static/media/carGallary (2).2242255e733cdb6aa927.png",
+    "static/media/imgAbout2.png": "/react-comp/static/media/imgAbout2.a24df5313843c3ecab2a.png",
+    "static/media/carGallary (1).png": "/react-comp/static/media/carGallary (1).5ada74393601ca0bed12.png",
+    "static/media/carGallary (5).png": "/react-comp/static/media/carGallary (5).147670d4a5eef3ebcc89.png",
+    "static/media/carGallary (8).png": "/react-comp/static/media/carGallary (8).147670d4a5eef3ebcc89.png",
+    "static/media/carGallary (4).png": "/react-comp/static/media/carGallary (4).2f9fd16bdc453cc694bd.png",
+    "static/media/ServicesImg.png": "/react-comp/static/media/ServicesImg.784cbbf285aad2456274.png",
+    "static/media/carGallary (6).png": "/react-comp/static/media/carGallary (6).1a09841d1417c4bde0f0.png",
+    "static/media/carGallary (9).png": "/react-comp/static/media/carGallary (9).d590ed449ef2a603a3d4.png",
+    "static/media/carGallary (7).png": "/react-comp/static/media/carGallary (7).002810d6356f46ebfd5f.png",
+    "static/media/carGallary (3).png": "/react-comp/static/media/carGallary (3).db1a95d3783cba560002.png",
+    "static/media/car (6).png": "/react-comp/static/media/car (6).24ccdf7d64752603ef6d.png",
+    "static/media/car (1).png": "/react-comp/static/media/car (1).c33e2fc9372ccc3fa388.png",
+    "static/media/car (66).png": "/react-comp/static/media/car (66).c33e2fc9372ccc3fa388.png",
+    "static/media/car (4).png": "/react-comp/static/media/car (4).9119ab40f43502e54a9e.png",
+    "static/media/car (3).png": "/react-comp/static/media/car (3).079bcaa9175a934b0f66.png",
+    "static/media/car (5).png": "/react-comp/static/media/car (5).7077747dfee2b0fe79d3.png",
+    "static/media/car (2).png": "/react-comp/static/media/car (2).cf6be4cba47f35cb88a6.png",
+    "static/media/cartype (3).png": "/react-comp/static/media/cartype (3).c1f796b9e0324dbdc876.png",
+    "static/media/cartype (1).png": "/react-comp/static/media/cartype (1).db32db9a6719af8e8203.png",
+    "static/media/cartype (8).png": "/react-comp/static/media/cartype (8).79b1b79324a77ca62ab5.png",
+    "index.html": "/react-comp/index.html",
+    "main.4b363e3d.css.map": "/react-comp/static/css/main.4b363e3d.css.map",
+    "main.8fa373b8.js.map": "/react-comp/static/js/main.8fa373b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b363e3d.css",
+    "static/js/main.8fa373b8.js"
+  ]
+}
